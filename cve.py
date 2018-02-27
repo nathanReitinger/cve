@@ -101,7 +101,7 @@ df_times = df[df['time_to_fix'].notnull()]
 print ( df_times['time_to_fix'].describe() )
 
 # preliminary charting
-chart = df_times.groupby(['time_to_fix']).size().plot(kind='bar', title ="Time to Fix", figsize=(15, 10), legend=True, fontsize=12)
+chart = df_times.groupby(['time_to_fix']).size().plot(kind='bar', title ="Time to Fix", figsize=(50, 50), legend=True, fontsize=12)
 chart.set_xlabel("Approximate Days Between Reported and Fixed", fontsize=12)
 chart.set_ylabel("Number of CVEs", fontsize=12)
 
