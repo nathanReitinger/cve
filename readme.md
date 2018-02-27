@@ -35,7 +35,7 @@ max|429.000000
 - for min observation: that result is true, the fix date was the same day as the reported date
 - for max observation: see CVE-2015-8636 (likely shows my assumption on "closed" and "fixed" is not always true)
 
-# here's what grouping looks like
+# Here's what grouping looks like
 ![grouping](https://github.com/nathanReitinger/cve/blob/master/Figure_1.png)
 
 
