@@ -22,16 +22,21 @@ To be sure, these are just _estimates_ based on the valuable date information pr
 ## Preliminary Results
 This is a simple pandas description of the estimated amount of time between reported and fixed dates:
 
-count    925.000000
-mean      72.935135
-std       37.140049
-min        0.000000                 // is true, the fix date was the same day as the reported date
-25%       56.000000
-50%       76.000000
-75%       87.000000
-max      429.000000                 // see CVE-2015-8636 (likely shows my assumption on "closed" and "fixed" is not always true)
-Name: time_to_fix, dtype: float64
+**count**|**925.000000**
+:-----:|:-----:
+mean|72.935135
+std|37.140049
+min|0.000000 
+25%|56.000000
+50%|76.000000
+75%|87.000000
+max|429.000000 
 
+- for min observation: that result is true, the fix date was the same day as the reported date
+- for max observation: see CVE-2015-8636 (likely shows my assumption on "closed" and "fixed" is not always true)
+
+# here's what grouping looks like
+![grouping](https://github.com/nathanReitinger/cve/blob/master/Figure_1.png)
 
 
 ## TODO
