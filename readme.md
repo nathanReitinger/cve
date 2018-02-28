@@ -20,7 +20,7 @@ To be sure, these are just _estimates_ based on the valuable date information pr
 3. store the result in a pandas dataframe 
 
 ## Preliminary Results
-This is a simple pandas description of the estimated amount of time between reported and fixed dates (although reported in floats from the description(), these numbers represent days:
+This is a simple pandas description of the estimated amount of time between reported and fixed dates (although reported in floats from the description(), these numbers represent days):
 
 **count**|**925.000000**
 :-----:|:-----:
